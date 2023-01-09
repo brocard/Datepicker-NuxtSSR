@@ -19,8 +19,9 @@ const selectedDate = ref({
 </script>
 
 <template>
-  <div class="app font-sans antialiased">
-
+  <div
+    class="app font-sans antialiased"
+  >
     <div class="app-search max-w-xl mx-auto mt-10">
       <ClientOnly>
         <template #fallback>
