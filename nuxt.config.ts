@@ -2,5 +2,7 @@
 export default defineNuxtConfig({
   css: ['@/assets/scss/app.scss'],
   modules: ['@nuxtjs/tailwindcss'],
-  plugins: ['~/plugins/vCalendar.client'],
+  plugins: [{
+    src: '~/plugins/vCalendar.client', mode: 'client'
+  }],
 })

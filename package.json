@@ -14,6 +14,7 @@
     "sass-loader": "^13.2.0"
   },
   "dependencies": {
-    "v-calendar": "^3.0.0-alpha.8"
+    "v-calendar": "^3.0.0-alpha.8",
+    "vue-airbnb-style-datepicker": "^2.7.1"
   }
 }
